@@ -21,7 +21,9 @@
              font-style: normal; }
 
 
-html { font-size: 15px; }
+html { font-size: 15px; 
+	     -webkit-font-smoothing: antialiased;
+     }
 
 body { width: 87.5%;
        margin-left: auto;
