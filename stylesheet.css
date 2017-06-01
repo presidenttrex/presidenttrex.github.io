@@ -1,26 +1,5 @@
 @charset "UTF-8";
 
-@font-face { font-family: "LibreBaskerville-Regular";
-             src: url("fonts/LibreBaskerville-Regular.ttf");
-             font-weight: normal;
-             font-style: normal; }
-
-@font-face { font-family: "LibreBaskerville-Italic";
-             src: url("fonts/LibreBaskerville-Italic.ttf");
-             font-weight: normal;
-             font-style: italic; }
-
-@font-face { font-family: "LibreBaskerville-Bold";
-             src: url("fonts/LibreBaskerville-Bold.ttf");
-             font-weight: bold;
-             font-style: normal; }
-
-@font-face { font-family: "LibreFranklin-ExtraBold";
-             src: url("LibreFranklin-ExtraBold.ttf");
-             font-weight: bold;
-             font-style: normal; }
-
-
 html { font-size: 15px; 
 	     -webkit-font-smoothing: antialiased;
      }
@@ -35,19 +14,19 @@ body { width: 87.5%;
        max-width: 1400px;
        counter-reset: sidenote-counter; }
 
-h1 { font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+h1 { font-family: 'Archivo Black', sans-serif;
      margin-top: 1.5rem;
      margin-bottom: 1.5rem;
      font-size: 3.2rem;
      line-height: 1; }
 
-h2 { font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+h2 { font-family: 'Roboto', sans-serif;
      margin-top: 2.1rem;
      margin-bottom: 0;
      font-size: 2.2rem;
      line-height: 1; }
 
-h3 { font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+h3 { font-family: 'Roboto', sans-serif;
      font-size: 1.7rem;
      margin-top: 2rem;
      margin-bottom: 0;
@@ -68,7 +47,7 @@ p.subtitle { font-style: italic;
              display: block;
              line-height: 1; }
 
-.numeral { font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif; }
+.numeral { font-family: 'Roboto', sans-serif; }
 
 .danger { color: red; }
 
@@ -175,7 +154,7 @@ img { max-width: 100%; }
 .sidenote-number { counter-increment: sidenote-counter; }
 
 .sidenote-number:after, .sidenote:before { content: counter(sidenote-counter) " ";
-                                           font-family: et-book-roman-old-style;
+                                           font-family: 'Roboto', sans-serif;
                                            position: relative;
                                            vertical-align: baseline; }
 
